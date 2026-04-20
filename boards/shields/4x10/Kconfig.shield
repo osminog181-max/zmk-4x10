@@ -1,4 +1,4 @@
-config SHIELD_DAIRI
+config SHIELD_4X10
     def_bool $(shields_list_contains,4x10)
 config SHIELD_DONGLE
 	def_bool $(shields_list_contains,dongle)
