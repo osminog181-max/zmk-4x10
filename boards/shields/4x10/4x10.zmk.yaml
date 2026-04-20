@@ -1,0 +1,9 @@
+file_format: "1"
+id: 4x10
+name: 4x10
+type: shield
+url: TODO
+requires:
+  - nice_nano
+features:
+  - encoder
