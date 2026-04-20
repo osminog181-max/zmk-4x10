@@ -15,10 +15,10 @@
 
         base_layer {
             bindings = <
-&kp Q      &kp W      &kp E     &kp R      &kp T      &kp Y     &kp U      &kp I         &kp O         &kp P
-&kp A      &kp S      &kp D     &kp F      &kp G      &kp H     &kp J      &kp K         &kp L         &kp J
-&kp Z      &kp X      &kp C     &kp V      &kp B      &kp N     &kp M      &kp COMMA     &kp DOT       &kp BSPC
-&kp LCTRL  &kp LSHFT  &kp LGUI  &kp ENTER  &kp SPACE  &kp RALT  &kp RCTRL  &kp LEFT_ALT  &kp LEFT_ALT
+&kp Q      &kp W      &kp E     &kp R      &kp T       &kp Y  &kp U      &kp I      &kp O         &kp P
+&kp A      &kp S      &kp D     &kp F      &kp G       &kp H  &kp J      &kp K      &kp L         &kp J
+&kp Z      &kp X      &kp C     &kp V      &kp B       &kp N  &kp M      &kp COMMA  &kp DOT       &kp BSPC
+&kp LCTRL  &kp LSHFT  &kp LGUI  &kp ENTER  &kp K_MUTE         &kp SPACE  &kp RALT   &kp LEFT_ALT  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
