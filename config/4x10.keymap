@@ -8,7 +8,24 @@
 &mt { tapping-term-ms = <250>; };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        rightparant {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <8 7>;
+        };
+
+        leftparant {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <7 6>;
+        };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <8 9>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
