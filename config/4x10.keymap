@@ -30,6 +30,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <19 18>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
     };
 
     behaviors {
@@ -50,7 +55,7 @@
             bindings = <
 &kp Q           &kp W      &kp E     &kp R            &mt GRAVE T  &kp Y  &kp U      &kp I                   &kp O                  &kp P
 &kp A           &kp S      &kp D     &kp F            &kp G        &kp H  &kp J      &kp K                   &kp L                  &mt NON_US_BACKSLASH SEMI
-&kp Z           &kp X      &kp C     &kp V            &kp B        &kp N  &mt SQT M  &mt LEFT_BRACKET COMMA  &mt RIGHT_BRACKET DOT  &mt DEL BSPC
+&kp Z           &kp X      &kp C     &kp V            &kp B        &kp N  &mt SQT M  &mt LEFT_BRACKET COMMA  &mt RIGHT_BRACKET DOT  &kp DEL
 &kp LEFT_SHIFT  &kp LCTRL  &kp LGUI  &modtap 1 ENTER  &kp C_MUTE          &kp SPACE  &kp RALT                &kp LEFT_ALT           &mo 1
             >;
 
