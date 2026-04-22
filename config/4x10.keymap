@@ -25,6 +25,11 @@
             bindings = <&kp QUESTION>;
             key-positions = <8 9>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 18>;
+        };
     };
 
     keymap {
