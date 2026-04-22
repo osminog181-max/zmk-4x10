@@ -22,7 +22,7 @@
         };
 
         question {
-            bindings = <&kp QUESTION>;
+            bindings = <&kp LS(QUESTION)>;
             key-positions = <8 9>;
         };
 
