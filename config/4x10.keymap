@@ -22,7 +22,7 @@
         };
 
         question {
-            bindings = <&kp LS(SLASH)>;
+            bindings = <&kp LS(N7)>;
             key-positions = <8 9>;
         };
 
