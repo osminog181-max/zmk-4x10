@@ -36,27 +36,12 @@
     };
 
     behaviors {
-
-
-hrm: hrm {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HRM";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <175>;
-            flavor = "balanced";
-            require-prior-idle-ms = <150>;
-            hold-trigger-on-release;
-            bindings = <&kp>, <&kp>;
-        };
-
         modtap: modtap {
             compatible = "zmk,behavior-hold-tap";
             label = "MODTAP";
-            bindings = <&to>, <&kp>;
-
             #binding-cells = <2>;
             tapping-term-ms = <250>;
+            bindings = <&mo>, <&kp>;
         };
     };
 
@@ -81,6 +66,15 @@ hrm: hrm {
 &kp N4  &kp N5  &kp N6  &kp N0              &kp F7  &kp F8  &kp F9  &kp F10         &kp F11          &kp F12
 &kp N1  &kp N2  &kp N3  &mt SLASH ASTERISK  &trans  &trans  &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans  &trans  &trans              &trans          &trans  &trans          &trans           &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
             >;
         };
     };
