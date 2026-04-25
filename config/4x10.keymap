@@ -5,8 +5,6 @@
 #define NUMPAD 1
 #define BLT 2
 
-&mt { tapping-term-ms = <250>; };
-
 / {
     combos {
         compatible = "zmk,combos";
