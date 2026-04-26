@@ -74,7 +74,7 @@
             bindings = <
 &kp Q            &kp W         &kp E            &kp R              &hrm GRAVE T  &kp Y  &kp U               &kp I                    &kp O                   &kp P
 &hrm LEFT_WIN A  &hrm LCTRL S  &hrm LEFT_ALT D  &hrm LEFT_SHIFT F  &kp G         &kp H  &hrm RIGHT_SHIFT J  &hrm RIGHT_ALT K         &hrm RCTRL L            &hrm NON_US_BACKSLASH SEMI
-&kp Z            &kp X         &kp C            &kp V              &kp B         &kp N  &hrm SQT M          &hrm LEFT_BRACKET COMMA  &hrm RIGHT_BRACKET DOT  &kp SLASH
+&kp Z            &kp X         &kp C            &kp V              &kp B         &kp N  &hrm SQT M          &hrm LEFT_BRACKET COMMA  &hrm RIGHT_BRACKET DOT  &hrm LS(SLASH) SLASH
 &kp LEFT_SHIFT   &kp LCTRL     &kp LGUI         &modtap 1 ENTER    &kp C_MUTE           &kp SPACE           &kp BACKSPACE            &kp DELETE              &mo 1
             >;
 
