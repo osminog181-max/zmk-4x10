@@ -12,11 +12,13 @@
         rightparant {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <8 7>;
+            layers = <0>;
         };
 
         leftparant {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <7 6>;
+            layers = <0>;
         };
 
         question {
@@ -42,6 +44,12 @@
         tobase {
             bindings = <&to 0>;
             key-positions = <29 19>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <1 2>;
+            layers = <1>;
         };
     };
 
