@@ -26,11 +26,6 @@
             key-positions = <8 9>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <>;
-        };
-
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
