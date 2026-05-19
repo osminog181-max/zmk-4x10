@@ -10,11 +10,11 @@ include:
       -DCONFIG_ZMK_STUDIO=y
       -DCONFIG_ZMK_STUDIO_LOCKING=n
 
-  - board: nice_nano_v2
-    shield: 4x10
-    cmake-args:
-     -DCONFIG_ZMK_SPLIT=y
-     -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  #- board: nice_nano_v2
+   # shield: 4x10
+    #cmake-args:
+    # -DCONFIG_ZMK_SPLIT=y
+    # -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
-  - board: nice_nano_v2
-    shield: settings_reset
+#  - board: nice_nano_v2
+  #  shield: settings_reset
